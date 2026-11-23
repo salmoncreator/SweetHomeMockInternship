@@ -2005,7 +2005,7 @@ public class PlanComponent extends JComponent implements PlanView, Scrollable, P
   
   /**
    * Prints this component plan at the scale given in the home print attributes or at a scale
-   * that makes it fill <code>pageFormat</code> imageable size if this attribute is <code>null</code>.
+   * that makes it fill pageFormat imageable size if this attribute is null.
    * If the home has levels, the plan of each viewable level is printed in the home's level order,
    * and the level selected before printing is restored afterwards, even if printing fails.
    */
@@ -2065,7 +2065,7 @@ public class PlanComponent extends JComponent implements PlanView, Scrollable, P
 
   /**
    * Prints the plan of the selected level at the scale given in the home print attributes or at a scale
-   * that makes it fill <code>pageFormat</code> imageable size if this attribute is <code>null</code>.
+   * that makes it fill pageFormat imageable size if this attribute is null.
    */
   private int printSelectedLevel(Graphics g, PageFormat pageFormat, int pageIndex) {
     List<Selectable> printedItems = getPaintedItems(); 
