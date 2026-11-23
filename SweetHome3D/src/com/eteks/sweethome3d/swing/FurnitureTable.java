@@ -784,7 +784,7 @@ public class FurnitureTable extends JTable implements View, Printable {
   }
 
   /**
-   * Adds the Level column to the given list of <code>printedColumns</code> if the home has levels
+   * Adds the Level column to printedColumns if the home has levels
    * and this column isn't already displayed, so that the printed furniture of each level
    * can be distinguished. The column is placed after the Name column when it's printed.
    * The columns displayed on screen are left unchanged.
